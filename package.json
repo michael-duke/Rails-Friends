@@ -1,0 +1,28 @@
+{
+  "name": "railsfriends",
+  "version": "1.0.0",
+  "private": true,
+  "description": "<a name=\"readme-top\"></a>",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michael-duke/Rails-Friends.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michael-duke/Rails-Friends/issues"
+  },
+  "homepage": "https://github.com/michael-duke/Rails-Friends#readme",
+  "dependencies": {
+    "@material-tailwind/html": "^1.2.3"
+  }
+}
