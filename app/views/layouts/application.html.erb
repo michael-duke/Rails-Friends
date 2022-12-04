@@ -8,9 +8,15 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+
+    <%= render "layouts/top_headers" %>
   </head>
 
   <body>
-    <%= yield %>
+    <%= render "home/navbar" %>
+    <main class="container mx-auto mt-28 px-5 flex">
+      <%= yield %>
+    </main>
+    <%= render "layouts/bottom_headers" %>
   </body>
 </html>
