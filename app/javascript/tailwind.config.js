@@ -2,7 +2,7 @@ tailwind.config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        sans: ['Inter var', 'sans-serif'],
       },
       letterSpacing: {
         widest: '.19em',
